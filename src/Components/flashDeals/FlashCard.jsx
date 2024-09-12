@@ -1,8 +1,7 @@
-// eslint-disable-next-line react/prop-types
 import Slider from "react-slick";
 
 const NextArrow = (props) => {
-  // eslint-disable-next-line react/prop-types
+  // eslint-disable-next-line react/prop-types    
   const { onClick } = props;
   return (
     <div className="control-btn" onClick={onClick}>
