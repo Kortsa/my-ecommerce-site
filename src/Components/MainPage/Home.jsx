@@ -1,6 +1,6 @@
 import Categories from "./Categories";
 import Slider from "./Slider";
-import "./Home.css"
+import "./Home.css";
 const Home = () => {
   return (
     <>
@@ -9,6 +9,7 @@ const Home = () => {
           <Categories />
           <Slider />
         </div>
+      
       </section>
     </>
   );
